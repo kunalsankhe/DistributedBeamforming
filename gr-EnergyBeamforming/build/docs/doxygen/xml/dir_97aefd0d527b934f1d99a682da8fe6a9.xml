@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerfile refid="bfweight2__cc__impl_8h">bfweight2_cc_impl.h</innerfile>
+    <innerfile refid="bfweight__cc__impl_8h">bfweight_cc_impl.h</innerfile>
+    <innerfile refid="correct__gmsk__cc__impl_8h">correct_gmsk_cc_impl.h</innerfile>
+    <innerfile refid="ekf__ff__impl_8h">ekf_ff_impl.h</innerfile>
+    <innerfile refid="lo__estimation__cf__impl_8h">lo_estimation_cf_impl.h</innerfile>
+    <innerfile refid="multi__slicer__fi__impl_8h">multi_slicer_fi_impl.h</innerfile>
+    <innerfile refid="one__bit__feedb2__cf__impl_8h">one_bit_feedb2_cf_impl.h</innerfile>
+    <innerfile refid="randphpert2__f__impl_8h">randphpert2_f_impl.h</innerfile>
+    <innerfile refid="randphpert3__f__impl_8h">randphpert3_f_impl.h</innerfile>
+    <innerfile refid="randphpert4__f__impl_8h">randphpert4_f_impl.h</innerfile>
+    <innerfile refid="randphpert__f__impl_8h">randphpert_f_impl.h</innerfile>
+    <innerfile refid="tx__packet__source__impl_8h">tx_packet_source_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/"/>
+  </compounddef>
+</doxygen>

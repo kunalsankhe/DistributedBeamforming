@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::multi_slicer_fi_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi" prot="public" virt="non-virtual">gr::EnergyBeamforming::multi_slicer_fi</basecompoundref>
+    <includes refid="multi__slicer__fi__impl_8h" local="no">multi_slicer_fi_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a9cb87f49b1f5b36b52d874fc2aaa69bc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::multi_slicer_fi_impl::d_upper_th</definition>
+        <argsstring></argsstring>
+        <name>d_upper_th</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" line="32" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a9e57f1ae872d8f55a410a4c16b0c82ca" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::multi_slicer_fi_impl::d_lower_th</definition>
+        <argsstring></argsstring>
+        <name>d_lower_th</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" line="33" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a5e8ff0ad891f653504ab69ef54279835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::multi_slicer_fi_impl::multi_slicer_fi_impl</definition>
+        <argsstring>(double upper_th, double lower_th)</argsstring>
+        <name>multi_slicer_fi_impl</name>
+        <param>
+          <type>double</type>
+          <declname>upper_th</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lower_th</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1afa4c29764c297480056300c05818de16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::multi_slicer_fi_impl::~multi_slicer_fi_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~multi_slicer_fi_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1aa6ea7544fcbe1b0a638b1d2d49ac4d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::multi_slicer_fi_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="133">
+        <label>gr::EnergyBeamforming::multi_slicer_fi</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>gr::EnergyBeamforming::multi_slicer_fi_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>gr::EnergyBeamforming::multi_slicer_fi</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>gr::EnergyBeamforming::multi_slicer_fi_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl"/>
+        <childnode refid="136" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" line="30" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/multi_slicer_fi_impl.h" bodystart="29" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a9e57f1ae872d8f55a410a4c16b0c82ca" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>d_lower_th</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a9cb87f49b1f5b36b52d874fc2aaa69bc" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>d_upper_th</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi_1a7ab896a1abb4d08d04f34e6166d1eef4" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a5e8ff0ad891f653504ab69ef54279835" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>multi_slicer_fi_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi_1a1aec7fc6c4f4917c9ed66a37f53a4c7f" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1aa6ea7544fcbe1b0a638b1d2d49ac4d10" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1afa4c29764c297480056300c05818de16" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::multi_slicer_fi_impl</scope><name>~multi_slicer_fi_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

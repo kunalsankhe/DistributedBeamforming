@@ -1,0 +1,28 @@
+<block>
+  <name>Apply BF Weight</name>
+  <key>EnergyBeamforming_bfweight_cc</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.bfweight_cc($bf_weight)</make>
+  <callback>set_bf_weight($bf_weight)</callback>
+  <param>
+        <name>BF Weight</name>
+        <key>bf_weight</key>
+        <type>complex</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+
+<doc>
+Empty!
+</doc>
+</block>
+

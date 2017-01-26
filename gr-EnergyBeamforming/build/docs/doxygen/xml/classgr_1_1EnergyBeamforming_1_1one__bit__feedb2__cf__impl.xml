@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf" prot="public" virt="non-virtual">gr::EnergyBeamforming::one_bit_feedb2_cf</basecompoundref>
+    <includes refid="one__bit__feedb2__cf__impl_8h" local="no">one_bit_feedb2_cf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a9e1751258d7e0e2eed93d9107617b77e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::one_bit_feedb2_cf_impl::d_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>d_sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="34" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a4cc3af5029a6082f5a2559aa1bc567f2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::d_decim_factor</definition>
+        <argsstring></argsstring>
+        <name>d_decim_factor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="35" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a042b4ffd2a89c749c786b19fbac1c0a2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::d_nbr_output_floats</definition>
+        <argsstring></argsstring>
+        <name>d_nbr_output_floats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="36" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a125f893ddb7f0d774b49c7c86de806db" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::one_bit_feedb2_cf_impl::d_treshold</definition>
+        <argsstring></argsstring>
+        <name>d_treshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="37" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a8be6aa027d4137819512fac91a582459" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::d_nbr_samples_packet</definition>
+        <argsstring></argsstring>
+        <name>d_nbr_samples_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="38" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a14dae39233b8bc06203134b1efe575d8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::d_nbr_samples_cycle</definition>
+        <argsstring></argsstring>
+        <name>d_nbr_samples_cycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="39" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1aba4a7c082e44a6c6c2589599f835c81a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::cpt_samples</definition>
+        <argsstring></argsstring>
+        <name>cpt_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="40" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1afa57aaf893aed8e6ad34374fd9e58fdc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::cpt_samples_packet</definition>
+        <argsstring></argsstring>
+        <name>cpt_samples_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="41" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a336d937ebc98ca5cc664f87c2243266c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::feedback_symbol</definition>
+        <argsstring></argsstring>
+        <name>feedback_symbol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="42" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a58f641d63d6826506f16303c6bc43fbd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::packet_number</definition>
+        <argsstring></argsstring>
+        <name>packet_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="43" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a366ccc3be69d5b3c542356eff0c2e19c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::one_bit_feedb2_cf_impl::avg_rss</definition>
+        <argsstring></argsstring>
+        <name>avg_rss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="44" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1ad8558918708bdf4f6e2ca34f17433834" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::one_bit_feedb2_cf_impl::current_rss</definition>
+        <argsstring></argsstring>
+        <name>current_rss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="45" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a0a1daa88e6baffe5fd057a55f4bfd587" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::one_bit_feedb2_cf_impl::rss_max</definition>
+        <argsstring></argsstring>
+        <name>rss_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="46" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1aaa079d82092bfc05afadff8089230cc9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::one_bit_feedb2_cf_impl::past_rss[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>past_rss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="47" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1acc266a42f1af9f3fcfd7682199cbd4d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::one_bit_feedb2_cf_impl::one_bit_feedb2_cf_impl</definition>
+        <argsstring>(double sample_rate, int decim_factor)</argsstring>
+        <name>one_bit_feedb2_cf_impl</name>
+        <param>
+          <type>double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>decim_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a5486f5133590f5be876e7048a901c408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::one_bit_feedb2_cf_impl::~one_bit_feedb2_cf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~one_bit_feedb2_cf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a820576020e23715ce7185547182f4c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::one_bit_feedb2_cf_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="145">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="144">
+        <label>gr::EnergyBeamforming::one_bit_feedb2_cf</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl"/>
+        <childnode refid="144" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="148">
+        <label>gr::sync_decimator</label>
+      </node>
+      <node id="147">
+        <label>gr::EnergyBeamforming::one_bit_feedb2_cf</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" line="31" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/one_bit_feedb2_cf_impl.h" bodystart="30" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a366ccc3be69d5b3c542356eff0c2e19c" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>avg_rss</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1aba4a7c082e44a6c6c2589599f835c81a" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>cpt_samples</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1afa57aaf893aed8e6ad34374fd9e58fdc" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>cpt_samples_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1ad8558918708bdf4f6e2ca34f17433834" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>current_rss</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a4cc3af5029a6082f5a2559aa1bc567f2" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>d_decim_factor</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a042b4ffd2a89c749c786b19fbac1c0a2" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>d_nbr_output_floats</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a14dae39233b8bc06203134b1efe575d8" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>d_nbr_samples_cycle</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a8be6aa027d4137819512fac91a582459" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>d_nbr_samples_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a9e1751258d7e0e2eed93d9107617b77e" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>d_sample_rate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a125f893ddb7f0d774b49c7c86de806db" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>d_treshold</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a336d937ebc98ca5cc664f87c2243266c" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>feedback_symbol</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf_1aa084fe0c091cb31e776ccdcdf0eabaf2" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1acc266a42f1af9f3fcfd7682199cbd4d5" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>one_bit_feedb2_cf_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a58f641d63d6826506f16303c6bc43fbd" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>packet_number</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1aaa079d82092bfc05afadff8089230cc9" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>past_rss</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a0a1daa88e6baffe5fd057a55f4bfd587" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>rss_max</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf_1a5638e1f4f64bf8540ff4ccf978f45863" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a820576020e23715ce7185547182f4c55" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a5486f5133590f5be876e7048a901c408" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</scope><name>~one_bit_feedb2_cf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

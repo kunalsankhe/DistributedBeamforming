@@ -1,0 +1,34 @@
+<block>
+  <name>1-bit feedback</name>
+  <key>EnergyBeamforming_one_bit_feedb2_cf</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.one_bit_feedb2_cf($sample_rate, $decim_factor)</make>
+  <param>
+        <name>Sample Rate</name>
+        <key>sample_rate</key>
+        <type>real</type>
+  </param>
+  
+  <param>
+        <name>Decimation Factor</name>
+        <key>decim_factor</key>
+        <type>int</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+
+
+<doc>
+Documentation: to be done...
+</doc>
+
+</block>

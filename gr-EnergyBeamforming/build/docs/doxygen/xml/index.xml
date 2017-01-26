@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc" kind="class"><name>gr::EnergyBeamforming::bfweight2_cc</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc_1a820106bb8cfe9c53e1017b74b2af3e91" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc_1a7a7b59aae00e858dd3110540f1e29a94" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl" kind="class"><name>gr::EnergyBeamforming::bfweight2_cc_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1a6b75aa57193adcba28e8283c522aa18c" kind="function"><name>bfweight2_cc_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1a65e0014edd22b32ed11f5d07b6464fc2" kind="function"><name>~bfweight2_cc_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1acd0cd2551710d40f732338d4373ea49b" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc" kind="class"><name>gr::EnergyBeamforming::bfweight_cc</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc_1a07530967418c486cede8f65764c81fc2" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc_1a3b4dc4dc4350c40c15b3f24fc73d7d15" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc_1ad20fb62754e81ba43933ad70f98a5a31" kind="function"><name>set_bf_weight</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl" kind="class"><name>gr::EnergyBeamforming::bfweight_cc_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl_1a7718be0f83b0462a422f8e25ddc8abfc" kind="variable"><name>d_bf_weight</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl_1a8e3bcf7bf210e1c9cdfe9ec7584c9e0e" kind="function"><name>bfweight_cc_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl_1ad432fbb57749a2cb00f91dd15a4e7c53" kind="function"><name>~bfweight_cc_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl_1a0daedcfa51f352de8aad2e4e21e38734" kind="function"><name>bf_weight</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl_1a66df2a040f12c200af407374310aa487" kind="function"><name>set_bf_weight</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc__impl_1a4822876f201ddb005c20cace35700b5e" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc" kind="class"><name>gr::EnergyBeamforming::correct_gmsk_cc</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc_1aab8124127eae02be26c6702baaecfb16" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc_1ac505b5d07e3bbfb925f21ed003593767" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl" kind="class"><name>gr::EnergyBeamforming::correct_gmsk_cc_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a2b0aa8ee2ad55f177719399a2a53f4b7" kind="variable"><name>d_nbr_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a1a4717c55c8382ecf224e34b14eb6a5d" kind="variable"><name>d_sampling_freq</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1aef67ea219076329a83fa22f5370d627f" kind="variable"><name>cpt_samples</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1ae29144ed0bd0ab232cd393ee8631b79f" kind="variable"><name>phase_shift</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a485f6148da6686a2d80730ae7b301418" kind="function"><name>correct_gmsk_cc_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a3517c698a1041eab9473ec5455a140b0" kind="function"><name>~correct_gmsk_cc_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1ab3702eb6f8d974ea5a57d66085cfc4c3" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a97f0d3d5f8b3f5c110a1843c93586385" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1ekf__ff" kind="class"><name>gr::EnergyBeamforming::ekf_ff</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff_1a13459a05dbb9db44412d4d5b135ea143" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff_1a7b550d598cac15cb1280d86aa7e2af7b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl" kind="class"><name>gr::EnergyBeamforming::ekf_ff_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a5e98c84e43c221c6488488d78459b127" kind="variable"><name>d_sample_rate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a112b978462f10e846e31c92251417e90" kind="variable"><name>d_elts_Q</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a47f988d9f57b46f64df6e6daec1e0967" kind="variable"><name>d_elts_R</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ade83ddae2665d71893723ccbd7dddbf0" kind="variable"><name>d_Tm</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abb73c79f36168a0046fd6131102ed1f3" kind="variable"><name>d_initial_freq</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a0d723ebfa91fa1c6cca098e2c2ce5f3b" kind="variable"><name>cpt_samples</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7d117c023450f1a661eb199f9d3680c1" kind="variable"><name>freq_estimate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a97e8658739dbcd415599fd11e11c8b98" kind="variable"><name>cos_phi_estimate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a488e78335f4da786c14c093ad8ac9c36" kind="variable"><name>sin_phi_estimate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ab2d50e3b60f06460737231eb5a713012" kind="variable"><name>pi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abc9aa20685d6b30dfa5199cb7c9e4e7b" kind="variable"><name>y</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a927b03b738d971b6afa66cb47c2e4822" kind="variable"><name>y_tilde_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a922d32e8f42cce91c7e54c0de3d98b36" kind="variable"><name>h_x_hat_k_km1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7a322c9eca8c08e931596dd04c63ffea" kind="variable"><name>x_hat_k_km1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2abe993ba913c5d86ce5b993659f528a" kind="variable"><name>H_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a6838c6bd037eb0f6f8a11a53db0959f6" kind="variable"><name>P_k_km1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1aa4e6401d6d239eab5784fce2134369bc" kind="variable"><name>R</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad7b42da024f89ee336870f70fbe1c4af" kind="variable"><name>temp_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2b23c8095666aa40160a211a86d1f910" kind="variable"><name>temp_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a3fb3a70ae7446656ad6558f833276754" kind="variable"><name>S_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1acf2d65ba7a51c6530fee32b21207b5a8" kind="variable"><name>temp_3</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a215684c5e145633e1878e7c50dd54842" kind="variable"><name>inv_S_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a316b2b6e0ca0c4a168b3078d08608354" kind="variable"><name>K_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a74dfb008b862eb05dec6c0224073a79f" kind="variable"><name>temp_4</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7f043f59c7f7d85e7823d6c53104ab76" kind="variable"><name>x_hat_k_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a413538d38667923827d218041c198192" kind="variable"><name>I_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1cfc90e2c1485ef4568d26f98baa8355" kind="variable"><name>temp_5</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abbbb42ebf1232503d4a0681630b09537" kind="variable"><name>temp_6</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a520ce0e682351fff6ebfab6bc8184fa6" kind="variable"><name>P_k_k</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1bf6db237de5f13080477550317c4154" kind="variable"><name>F</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a07bdedb90ea645a4dcb90a119bb4b708" kind="variable"><name>temp_7</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad501c4a7dcf44d08a8560532920f5cbf" kind="variable"><name>temp_8</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a49484cc3b2209d8e498976770e957907" kind="variable"><name>Q</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1aeb463e518bf44a7aea894814ba661de0" kind="function"><name>ekf_ff_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2873965331dc5a4134da17c27e9bc020" kind="function"><name>~ekf_ff_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad79bbb6fb6d5367fda4f35b7d37848ab" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1d2dc85510f099b592d2257cbf571404" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf" kind="class"><name>gr::EnergyBeamforming::lo_estimation_cf</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf_1a4f8c39e5e60df0e101e74a5b5ff3f998" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf_1ad18e3b0147d1f6ad9143c1d2fdeef560" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl" kind="class"><name>gr::EnergyBeamforming::lo_estimation_cf_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aee79bf99696608ba026e7db9e66eb9bf" kind="variable"><name>d_sample_rate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a8269c30faaaddb4710146831a866fa11" kind="variable"><name>d_treshold</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa8b459f7f68a03fd14c42da755c7037b" kind="variable"><name>d_nbr_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a35a499212af23b644aee6056d133c018" kind="variable"><name>d_N</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac0908d1ddab44abc2b24f6b40c0b7652" kind="variable"><name>d_K</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a4bf6a247323831d4f6864d3e822d1a37" kind="variable"><name>Ts</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae0dd8e2a0e509ac6fe8fe119a103e750" kind="variable"><name>cpt_samples</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a250a71f544221be6720b216c20337b91" kind="variable"><name>cpt_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a1461310156a5eb0e70018df9c86ed78c" kind="variable"><name>cpt_k_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae0068bc47fad1c3c8b6b99175494061e" kind="variable"><name>cpt_k_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab6dc7408137f76fee6a2f263811c1654" kind="variable"><name>sign_cpt_k_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a39b3d2f0a2d053f2495b193cf72d1731" kind="variable"><name>sign_cpt_k_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a0d2e4a4cb9f4dd3ee47445e0cec4540a" kind="variable"><name>pi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a503255d365b18751b1ede82705599e4b" kind="variable"><name>tx_header</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a7fa8a4a23bbfcd4a3fabf86574a748d9" kind="variable"><name>rx_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af4eea88072a5eb7784c5f154c0671fbc" kind="variable"><name>start_time_recording_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afae0dc77093b28a47f9233e7d85be113" kind="variable"><name>pilotSignal_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa20d5a1b7f3152411dcb51930efcb3a4" kind="variable"><name>pilotSignal_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a0b8fc7f68d929b44255e16006b129e1a" kind="variable"><name>data_fft_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab3e5f9866226b57760e4607796d5fee5" kind="variable"><name>data_fft_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afc20ab2ee6fc0e18494d34192c7a30f0" kind="variable"><name>eff_Ts</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6d8c484668f0b114fde0f5022259205" kind="variable"><name>data_abs_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa293927f0371786887bc610eb49d30f5" kind="variable"><name>data_abs_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a13ca7756e49b191e20fdca06fe2c5f63" kind="variable"><name>pilotSpectrum_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa83f4e1692a06d0b3f873246a456cd4e" kind="variable"><name>pilotSpectrum_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a238886b01f6acae59547475eb54d8221" kind="variable"><name>max_val_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af2b87f39c849b2b7f6870690ffe9add7" kind="variable"><name>max_val_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab86bcbff2fb501e4d55d51420b8b96e6" kind="variable"><name>max_val</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a8b073d66b0c2892f131106096627d643" kind="variable"><name>max_ind_1</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a39bfd2ee47fd09d16fd9001d5d7c6f98" kind="variable"><name>max_ind_2</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1abe152aa3b2b26cbe87352cc8af0af8df" kind="variable"><name>max_ind</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a24e5a586a0f5ba437674ab5475eb4ff9" kind="variable"><name>max_ind_final</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a232c771efa61d37638452799fc7e0224" kind="variable"><name>Y_before</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a5ea88eb92dd284f9686608637496f229" kind="variable"><name>Y_after</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac9e5ee0f6513b00e1a881f104e63bff6" kind="variable"><name>IPlus</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a667884b096d31981c11e35a0f4b08fa5" kind="variable"><name>freq_estimate_double_lo</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afd77e6f7819ec0ff7e0cc3159df7c38f" kind="variable"><name>freq_estimate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af0a9a4487d6428243b2bc534346e6697" kind="variable"><name>corr_output</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa9bbf5a7fa1c5377c16ef67b86a483fe" kind="variable"><name>phase_coeff</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a9f817a5701184529e46972bc1d0d2e3d" kind="variable"><name>corr_output_max</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a2d86b064d3279475d3c8c6bf8f3ef4f9" kind="variable"><name>index_max</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a6938eeee5522167d0c6d32883fc9a73b" kind="variable"><name>phase_estimate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae217bc581f3fff9037c59ae7e5ca53f9" kind="variable"><name>start_time_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a18756a2be6492c8b8550d2ea05d2cb38" kind="variable"><name>delay_estimate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a312b9631248773d0471d612153b119dc" kind="variable"><name>last_start_time_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a740da0aa3713e7292c7bf1a87a5a6351" kind="variable"><name>fracs_pkt</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aed791c5f3071dc183a70735fd7ab3b78" kind="variable"><name>fracs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae2ed52d899edf8dfd957d8d39af7df30" kind="variable"><name>pps_fracs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1affb3181594b676e38437e4fdb492071b" kind="variable"><name>secs_pkt</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1adc417be5dcc6bb69736ff9c3bc613f50" kind="variable"><name>secs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a74092c8869c1ed9f77025f470a84073e" kind="variable"><name>pps_secs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1acd15e2a6afa5f858a156cb1e90ea863c" kind="variable"><name>offs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a28042ac6e3d711c81ae30a539dc74a79" kind="function"><name>lo_estimation_cf_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a1970ba89dd3953f95641fe736dcd2aac" kind="function"><name>~lo_estimation_cf_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af618151fae96653b51122f1bfaf024e5" kind="function"><name>get_pps_secs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a301519440b94a0f78d143dcb689dffe0" kind="function"><name>get_pps_fracs</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6fadc5226a0bfa792628a8d3b95293f" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae7dcb49a8d3321618db99913ffb51a7a" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi" kind="class"><name>gr::EnergyBeamforming::multi_slicer_fi</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi_1a1aec7fc6c4f4917c9ed66a37f53a4c7f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi_1a7ab896a1abb4d08d04f34e6166d1eef4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl" kind="class"><name>gr::EnergyBeamforming::multi_slicer_fi_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a9cb87f49b1f5b36b52d874fc2aaa69bc" kind="variable"><name>d_upper_th</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a9e57f1ae872d8f55a410a4c16b0c82ca" kind="variable"><name>d_lower_th</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1a5e8ff0ad891f653504ab69ef54279835" kind="function"><name>multi_slicer_fi_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1afa4c29764c297480056300c05818de16" kind="function"><name>~multi_slicer_fi_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi__impl_1aa6ea7544fcbe1b0a638b1d2d49ac4d10" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf" kind="class"><name>gr::EnergyBeamforming::one_bit_feedb2_cf</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf_1a5638e1f4f64bf8540ff4ccf978f45863" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf_1aa084fe0c091cb31e776ccdcdf0eabaf2" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl" kind="class"><name>gr::EnergyBeamforming::one_bit_feedb2_cf_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a9e1751258d7e0e2eed93d9107617b77e" kind="variable"><name>d_sample_rate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a4cc3af5029a6082f5a2559aa1bc567f2" kind="variable"><name>d_decim_factor</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a042b4ffd2a89c749c786b19fbac1c0a2" kind="variable"><name>d_nbr_output_floats</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a125f893ddb7f0d774b49c7c86de806db" kind="variable"><name>d_treshold</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a8be6aa027d4137819512fac91a582459" kind="variable"><name>d_nbr_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a14dae39233b8bc06203134b1efe575d8" kind="variable"><name>d_nbr_samples_cycle</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1aba4a7c082e44a6c6c2589599f835c81a" kind="variable"><name>cpt_samples</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1afa57aaf893aed8e6ad34374fd9e58fdc" kind="variable"><name>cpt_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a336d937ebc98ca5cc664f87c2243266c" kind="variable"><name>feedback_symbol</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a58f641d63d6826506f16303c6bc43fbd" kind="variable"><name>packet_number</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a366ccc3be69d5b3c542356eff0c2e19c" kind="variable"><name>avg_rss</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1ad8558918708bdf4f6e2ca34f17433834" kind="variable"><name>current_rss</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a0a1daa88e6baffe5fd057a55f4bfd587" kind="variable"><name>rss_max</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1aaa079d82092bfc05afadff8089230cc9" kind="variable"><name>past_rss</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1acc266a42f1af9f3fcfd7682199cbd4d5" kind="function"><name>one_bit_feedb2_cf_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a5486f5133590f5be876e7048a901c408" kind="function"><name>~one_bit_feedb2_cf_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf__impl_1a820576020e23715ce7185547182f4c55" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f" kind="class"><name>gr::EnergyBeamforming::randphpert2_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1a4f074b6df8a199d6254b15a66125b629" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1a0639468f4783867f555d9b06438baf16" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1a6b5fcb5016db3ce5b8c997066b4527f8" kind="function"><name>poll_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1afa7dac64a1fcb889de8d1236d7ecfa4e" kind="function"><name>bf_flag</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl" kind="class"><name>gr::EnergyBeamforming::randphpert2_f_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a9e960c2b99b27f4418117dfcfeb53893" kind="variable"><name>d_rand_pert_size</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a16f04e088e05faddf73c163c582fec47" kind="variable"><name>d_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a9b96020309b7be23dafda8636918c1e0" kind="variable"><name>d_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a4748ec3926d5fe25696880b9bbaaea04" kind="variable"><name>last_in_i</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1afab6e8c0e6d63fca327520c3c7d0e5d2" kind="variable"><name>seed</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a16c569a60cb624f9cb878be9c544142c" kind="variable"><name>randp</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a3ecef9f2837c623f5103354eef42004c" kind="variable"><name>rand_pert_size_rad</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a160a2f183384fddb136e2ae6ee417e19" kind="variable"><name>cum_ang</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1aeae4413b2c3437712d94c88879657b18" kind="variable"><name>i_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1ae197385177f102fdf4f67dec26803cbc" kind="variable"><name>q_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a856ba8c8d482917edf4b6b380c9ea7ca" kind="variable"><name>etojphi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1ae0db650e9321a245f087272787e79c4c" kind="variable"><name>rand_pert_from_prev_iter</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a40896bf30be55dadee5d042056b3ec03" kind="function"><name>randphpert2_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1afaa7de8f13227de3e973face9b80b2b9" kind="function"><name>~randphpert2_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1ad28f0368f70e9f28d72143a62e29e72e" kind="function"><name>bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1a1cf79e43d1652f1c81e60da0832f3f41" kind="function"><name>set_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1ac07dde23060205d742d10efc355d3ee0" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f__impl_1aeda18f0a3ec7a4792056a70706fabee8" kind="function"><name>poll_complex_gain</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f" kind="class"><name>gr::EnergyBeamforming::randphpert3_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f_1aa5d3e55a860ca2b6fe11d36044b3dc7a" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f_1a6d4bee27fcaba536a1fc875652edd97c" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl" kind="class"><name>gr::EnergyBeamforming::randphpert3_f_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a530525685dcdc9aed8c177810ed5220f" kind="variable"><name>d_rand_pert_size</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a3a1ae5d01f0739eeaa810e164abfc943" kind="variable"><name>d_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1ad65e1015159dcfa73490246f49b70fc1" kind="variable"><name>d_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1ac9863c94dfa4e88618f7e062da1d4b0b" kind="variable"><name>last_in_i</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a281e31741855677298b3d4c6384240b0" kind="variable"><name>seed</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1ad4f98eaf5fe29c042a00c4d0399dd7f9" kind="variable"><name>randp</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a8f54d6aab630b36e67e0adb5f30e7e92" kind="variable"><name>rand_pert_size_rad</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a493b472cdc1f4a3d5f6391b94dd76836" kind="variable"><name>cum_ang</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1ae0b56fb881ee206e48d688e119bfeb98" kind="variable"><name>i_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1af5cec46e48b58ca628f76af84e465e7f" kind="variable"><name>q_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a0dc4a7f052b1d9eb98cd85ad5031810c" kind="variable"><name>etojphi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a58b8277ba466e477e7b29f9ac28e1e46" kind="variable"><name>rand_pert_from_prev_iter</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1ad5f46958778c970ac0e7b3d40a06e083" kind="variable"><name>noise_data</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a205edfc8a4caee4c1c6a9bd9a6c8f739" kind="variable"><name>tmp</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a9fde0ce270ded4391310304a1bd15c9c" kind="function"><name>randphpert3_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a2cbaf6f260286e11c5b8ac414bf487df" kind="function"><name>~randphpert3_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1a70aa07cafa4feee1273b819083f2c5c6" kind="function"><name>bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1aef43cc21880762fdf5c93cb2bdd18cc4" kind="function"><name>set_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f__impl_1ac24f77a60e2aef15c9b8990c3231f991" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f" kind="class"><name>gr::EnergyBeamforming::randphpert4_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a9312e5aa53c5c728750998ac8f7361a8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a34c56960cec00ce6cb8104a24d937d9d" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a4e378da98b530c4b8fcdd2ff77db8bd2" kind="function"><name>poll_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a2ffa0662331bba504090b8414cc705b1" kind="function"><name>bf_flag</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl" kind="class"><name>gr::EnergyBeamforming::randphpert4_f_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a1d113a46ecfdd412743171e7bb65ff31" kind="variable"><name>d_rand_pert_size</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a9812c42424874b4cb7efd1e262131e74" kind="variable"><name>d_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1adf1da9fee3b15ce6965a1494463d10f3" kind="variable"><name>d_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1aab09b47d3e368a73cb0414afc7228b20" kind="variable"><name>last_in_i</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1acd2793ffbcaccb37cfce9556741fc495" kind="variable"><name>seed</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a268283983f0dc43bb52158dd3d5aa9d8" kind="variable"><name>randp</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a4f091268ec3ff23dea6a432484bf937e" kind="variable"><name>rand_pert_size_rad</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1ad87f7422374d7c0a41afab6d6f408cfd" kind="variable"><name>cum_ang</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a539cf866eef77216cb10ec88a0fcf900" kind="variable"><name>i_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1ab891f53827ed60729def35e006add5b4" kind="variable"><name>q_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a3482c850482005350b1d02fbf5be386b" kind="variable"><name>etojphi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1ac0975f716ee0c9d38603e59c01a63696" kind="variable"><name>rand_pert_from_prev_iter</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1abd49052d4b08a87889302a320500b6d2" kind="variable"><name>noise_data</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a2c50ac1f3578a074998babaaf6be4073" kind="function"><name>randphpert4_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1ac197181d6dbd5f1b84665dcc32fedb3a" kind="function"><name>~randphpert4_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1a0d6320776191b2e47c371d22ca5f8627" kind="function"><name>bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1adba77ce2f515d8146d8fd87ee1c203d4" kind="function"><name>set_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1ae333f02e469e9c65590ef9330a64455a" kind="function"><name>work</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f__impl_1aa6855bbbbcd147a0f14448cd73398b68" kind="function"><name>poll_complex_gain</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert__f" kind="class"><name>gr::EnergyBeamforming::randphpert_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f_1a7611e0360bc7fd12e74428e7988c13c1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f_1a99663b9bb2035118ef41ef74fd6f6d3b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl" kind="class"><name>gr::EnergyBeamforming::randphpert_f_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ae7393fccf10f857100ac6c714c3c6d9b" kind="variable"><name>d_rand_pert_size</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1aa5733311a01aad09aeb6126e141a544a" kind="variable"><name>d_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac931e11f2b536e1146bf4ce61f39f23c" kind="variable"><name>d_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a72b3c86e0ba8c64695893efea5501b77" kind="variable"><name>last_in_i</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1aefbce985e9d979f35d4ce5b118b21f78" kind="variable"><name>seed</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ad73ac6cac3590e0fbafded116db9466b" kind="variable"><name>randp</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af5ce838e3afac850288792d83532ffe0" kind="variable"><name>rand_pert_size_rad</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af8e60d002ddd2b37570c07c1a1b56ece" kind="variable"><name>cum_ang</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1adf0f1d9e239eca903c2980592910a2bc" kind="variable"><name>i_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1afc578fb18239da233ff9a8d85f33b2de" kind="variable"><name>q_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a4034dc6aeae1a18301b124fd67fd694b" kind="variable"><name>etojphi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a9f8968260b837e14109278a5819364de" kind="variable"><name>rand_pert_from_prev_iter</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a680e041bde3b10a3e824b07181caf083" kind="function"><name>randphpert_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a8a213b7c4fd995bc7beaf8e636c9d997" kind="function"><name>~randphpert_f_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af75f5e5ad60b298c4c592e68f1a17c9a" kind="function"><name>bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1abf2c637b341d9549065b073a009f5e29" kind="function"><name>set_bf_flag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac6a4147fcec752e8c2ffca469be1d15f" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" kind="class"><name>gr::EnergyBeamforming::tx_packet_source</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a110c3b8658c2c8356cb015fd02ff2b7c" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a831eb277d7815d61cf0ce3b2be10f263" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl" kind="class"><name>gr::EnergyBeamforming::tx_packet_source_impl</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ae36cc3dcdd4cc7b9ea35dd72a1434801" kind="variable"><name>d_sample_rate</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a4805e274cfd43b45c7bc6f1a4117fc62" kind="variable"><name>d_time_delay</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a2f6aad32e0d1e94a4aea5f4b192ed635" kind="variable"><name>d_nbr_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a7742765137062302c7de5b0b5475c014" kind="variable"><name>d_f_in</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1aa0f117f8c2b28c667d0f196677ee268d" kind="variable"><name>d_f_out</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ae6d8231b51ef39d3d3bd7f986161d480" kind="variable"><name>cpt_samples</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a7efc003f535203d98505f1d905c91e4f" kind="variable"><name>fpga_time_available</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ae67ef121fcd4325d82c8cab2c25393e3" kind="variable"><name>secs_rx</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1abdab215f433640c019afb33d0e326e8b" kind="variable"><name>fracs_rx</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ac83664e09aade1a3f7ba95008060ed96" kind="variable"><name>secs_tx</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a25c1d0beeeb4160fe21704c38aa9523c" kind="variable"><name>fracs_tx</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a814e254132af62442987f4ae682385de" kind="variable"><name>cpt_samples_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1aa596675afa2cd09e68f5405d5c71fd85" kind="variable"><name>tx_packet</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a69ad227ea949d2dda58011322849b4fd" kind="variable"><name>lo_phase_offset</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ab2f35d441f3af836683fe531d931cb32" kind="variable"><name>lo_freq_offset</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ad0af8df87ca3868c5cb6987dff191919" kind="variable"><name>Ts</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a7018035e9d2a235faf77c6c2197ec55c" kind="variable"><name>output_phase_ref_freq</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a38d350e81a9f2a0b1ef76d19b8d5e021" kind="variable"><name>output_phase_bf_freq</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a1b7274ad238751398e5d4507fa333f68" kind="variable"><name>pi</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1ae6f52e1cc75eba2815bbe9d135d90f8f" kind="function"><name>tx_packet_source_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a7c791503cb088d27fb24eb5eb2f85fd6" kind="function"><name>~tx_packet_source_impl</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1aa183902271d3c92506655499f7a77dff" kind="function"><name>make_time_tag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a87393ee4e0016b0592d8a7cc052a497f" kind="function"><name>make_sob_tag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a129123aee53ae319040d1abe4dff50bd" kind="function"><name>make_eob_tag</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source__impl_1a7065b65dfe56b0f1817efe3f3a63bd79" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1EnergyBeamforming" kind="namespace"><name>gr::EnergyBeamforming</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a74494222cae9e366466eadc7e84bb0c3" kind="define"><name>ENERGYBEAMFORMING_API</name></member>
+  </compound>
+  <compound refid="bfweight2__cc_8h" kind="file"><name>bfweight2_cc.h</name>
+  </compound>
+  <compound refid="bfweight2__cc__impl_8h" kind="file"><name>bfweight2_cc_impl.h</name>
+  </compound>
+  <compound refid="bfweight__cc_8h" kind="file"><name>bfweight_cc.h</name>
+  </compound>
+  <compound refid="bfweight__cc__impl_8h" kind="file"><name>bfweight_cc_impl.h</name>
+  </compound>
+  <compound refid="correct__gmsk__cc_8h" kind="file"><name>correct_gmsk_cc.h</name>
+  </compound>
+  <compound refid="correct__gmsk__cc__impl_8h" kind="file"><name>correct_gmsk_cc_impl.h</name>
+  </compound>
+  <compound refid="ekf__ff_8h" kind="file"><name>ekf_ff.h</name>
+  </compound>
+  <compound refid="ekf__ff__impl_8h" kind="file"><name>ekf_ff_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="lo__estimation__cf_8h" kind="file"><name>lo_estimation_cf.h</name>
+  </compound>
+  <compound refid="lo__estimation__cf__impl_8h" kind="file"><name>lo_estimation_cf_impl.h</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="multi__slicer__fi_8h" kind="file"><name>multi_slicer_fi.h</name>
+  </compound>
+  <compound refid="multi__slicer__fi__impl_8h" kind="file"><name>multi_slicer_fi_impl.h</name>
+  </compound>
+  <compound refid="one__bit__feedb2__cf_8h" kind="file"><name>one_bit_feedb2_cf.h</name>
+  </compound>
+  <compound refid="one__bit__feedb2__cf__impl_8h" kind="file"><name>one_bit_feedb2_cf_impl.h</name>
+  </compound>
+  <compound refid="randphpert2__f_8h" kind="file"><name>randphpert2_f.h</name>
+  </compound>
+  <compound refid="randphpert2__f__impl_8h" kind="file"><name>randphpert2_f_impl.h</name>
+  </compound>
+  <compound refid="randphpert3__f_8h" kind="file"><name>randphpert3_f.h</name>
+  </compound>
+  <compound refid="randphpert3__f__impl_8h" kind="file"><name>randphpert3_f_impl.h</name>
+  </compound>
+  <compound refid="randphpert4__f_8h" kind="file"><name>randphpert4_f.h</name>
+  </compound>
+  <compound refid="randphpert4__f__impl_8h" kind="file"><name>randphpert4_f_impl.h</name>
+  </compound>
+  <compound refid="randphpert__f_8h" kind="file"><name>randphpert_f.h</name>
+  </compound>
+  <compound refid="randphpert__f__impl_8h" kind="file"><name>randphpert_f_impl.h</name>
+  </compound>
+  <compound refid="tx__packet__source_8h" kind="file"><name>tx_packet_source.h</name>
+  </compound>
+  <compound refid="tx__packet__source__impl_8h" kind="file"><name>tx_packet_source_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_f82d4e7e48ee8a20cc7e2a346931fe97" kind="dir"><name>EnergyBeamforming</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

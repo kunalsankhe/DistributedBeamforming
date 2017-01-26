@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::correct_gmsk_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc" prot="public" virt="non-virtual">gr::EnergyBeamforming::correct_gmsk_cc</basecompoundref>
+    <includes refid="correct__gmsk__cc__impl_8h" local="no">correct_gmsk_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a2b0aa8ee2ad55f177719399a2a53f4b7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::correct_gmsk_cc_impl::d_nbr_samples_packet</definition>
+        <argsstring></argsstring>
+        <name>d_nbr_samples_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="33" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a1a4717c55c8382ecf224e34b14eb6a5d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::correct_gmsk_cc_impl::d_sampling_freq</definition>
+        <argsstring></argsstring>
+        <name>d_sampling_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="34" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1aef67ea219076329a83fa22f5370d627f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::correct_gmsk_cc_impl::cpt_samples</definition>
+        <argsstring></argsstring>
+        <name>cpt_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="36" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1ae29144ed0bd0ab232cd393ee8631b79f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::correct_gmsk_cc_impl::phase_shift</definition>
+        <argsstring></argsstring>
+        <name>phase_shift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="37" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a485f6148da6686a2d80730ae7b301418" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::correct_gmsk_cc_impl::correct_gmsk_cc_impl</definition>
+        <argsstring>(double nbr_samples_packet, double sampling_freq)</argsstring>
+        <name>correct_gmsk_cc_impl</name>
+        <param>
+          <type>double</type>
+          <declname>nbr_samples_packet</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sampling_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a3517c698a1041eab9473ec5455a140b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::correct_gmsk_cc_impl::~correct_gmsk_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~correct_gmsk_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1ab3702eb6f8d974ea5a57d66085cfc4c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::EnergyBeamforming::correct_gmsk_cc_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a97f0d3d5f8b3f5c110a1843c93586385" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::correct_gmsk_cc_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="99">
+        <label>gr::EnergyBeamforming::correct_gmsk_cc_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>gr::EnergyBeamforming::correct_gmsk_cc</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc"/>
+        <childnode refid="101" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="102">
+        <label>gr::EnergyBeamforming::correct_gmsk_cc_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>gr::EnergyBeamforming::correct_gmsk_cc</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc"/>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" line="31" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/correct_gmsk_cc_impl.h" bodystart="30" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a485f6148da6686a2d80730ae7b301418" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>correct_gmsk_cc_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1aef67ea219076329a83fa22f5370d627f" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>cpt_samples</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a2b0aa8ee2ad55f177719399a2a53f4b7" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>d_nbr_samples_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a1a4717c55c8382ecf224e34b14eb6a5d" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>d_sampling_freq</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1ab3702eb6f8d974ea5a57d66085cfc4c3" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a97f0d3d5f8b3f5c110a1843c93586385" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc_1ac505b5d07e3bbfb925f21ed003593767" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1ae29144ed0bd0ab232cd393ee8631b79f" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>phase_shift</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc_1aab8124127eae02be26c6702baaecfb16" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc__impl_1a3517c698a1041eab9473ec5455a140b0" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::correct_gmsk_cc_impl</scope><name>~correct_gmsk_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1EnergyBeamforming" kind="namespace" language="C++">
+    <compoundname>gr::EnergyBeamforming</compoundname>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc" prot="public">gr::EnergyBeamforming::bfweight2_cc</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc" prot="public">gr::EnergyBeamforming::bfweight_cc</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc" prot="public">gr::EnergyBeamforming::correct_gmsk_cc</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1ekf__ff" prot="public">gr::EnergyBeamforming::ekf_ff</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf" prot="public">gr::EnergyBeamforming::lo_estimation_cf</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi" prot="public">gr::EnergyBeamforming::multi_slicer_fi</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf" prot="public">gr::EnergyBeamforming::one_bit_feedb2_cf</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f" prot="public">gr::EnergyBeamforming::randphpert2_f</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f" prot="public">gr::EnergyBeamforming::randphpert3_f</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f" prot="public">gr::EnergyBeamforming::randphpert4_f</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1randphpert__f" prot="public">gr::EnergyBeamforming::randphpert_f</innerclass>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" prot="public">gr::EnergyBeamforming::tx_packet_source</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/bfweight2_cc.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

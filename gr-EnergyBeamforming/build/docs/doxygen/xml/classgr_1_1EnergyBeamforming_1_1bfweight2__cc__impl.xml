@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::bfweight2_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc" prot="public" virt="non-virtual">gr::EnergyBeamforming::bfweight2_cc</basecompoundref>
+    <includes refid="bfweight2__cc__impl_8h" local="no">bfweight2_cc_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1a6b75aa57193adcba28e8283c522aa18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::bfweight2_cc_impl::bfweight2_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>bfweight2_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/bfweight2_cc_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1a65e0014edd22b32ed11f5d07b6464fc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::bfweight2_cc_impl::~bfweight2_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~bfweight2_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/bfweight2_cc_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1acd0cd2551710d40f732338d4373ea49b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::bfweight2_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/bfweight2_cc_impl.h" line="39" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="78">
+        <label>gr::EnergyBeamforming::bfweight2_cc</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>sync_block</label>
+      </node>
+      <node id="77">
+        <label>gr::EnergyBeamforming::bfweight2_cc_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="81">
+        <label>gr::EnergyBeamforming::bfweight2_cc</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>sync_block</label>
+      </node>
+      <node id="80">
+        <label>gr::EnergyBeamforming::bfweight2_cc_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/bfweight2_cc_impl.h" line="30" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/bfweight2_cc_impl.h" bodystart="29" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1a6b75aa57193adcba28e8283c522aa18c" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::bfweight2_cc_impl</scope><name>bfweight2_cc_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc_1a7a7b59aae00e858dd3110540f1e29a94" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::bfweight2_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc_1a820106bb8cfe9c53e1017b74b2af3e91" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::bfweight2_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1acd0cd2551710d40f732338d4373ea49b" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::bfweight2_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc__impl_1a65e0014edd22b32ed11f5d07b6464fc2" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::bfweight2_cc_impl</scope><name>~bfweight2_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

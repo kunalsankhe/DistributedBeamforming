@@ -1,0 +1,915 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::lo_estimation_cf_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf" prot="public" virt="non-virtual">gr::EnergyBeamforming::lo_estimation_cf</basecompoundref>
+    <includes refid="lo__estimation__cf__impl_8h" local="no">lo_estimation_cf_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aee79bf99696608ba026e7db9e66eb9bf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::d_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>d_sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="33" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a8269c30faaaddb4710146831a866fa11" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::d_treshold</definition>
+        <argsstring></argsstring>
+        <name>d_treshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="34" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa8b459f7f68a03fd14c42da755c7037b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::d_nbr_samples_packet</definition>
+        <argsstring></argsstring>
+        <name>d_nbr_samples_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="35" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a35a499212af23b644aee6056d133c018" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::d_N</definition>
+        <argsstring></argsstring>
+        <name>d_N</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="36" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac0908d1ddab44abc2b24f6b40c0b7652" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::d_K</definition>
+        <argsstring></argsstring>
+        <name>d_K</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="37" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a4bf6a247323831d4f6864d3e822d1a37" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::Ts</definition>
+        <argsstring></argsstring>
+        <name>Ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="39" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae0dd8e2a0e509ac6fe8fe119a103e750" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::cpt_samples</definition>
+        <argsstring></argsstring>
+        <name>cpt_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="40" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a250a71f544221be6720b216c20337b91" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::cpt_samples_packet</definition>
+        <argsstring></argsstring>
+        <name>cpt_samples_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="41" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a1461310156a5eb0e70018df9c86ed78c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::cpt_k_1</definition>
+        <argsstring></argsstring>
+        <name>cpt_k_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="42" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae0068bc47fad1c3c8b6b99175494061e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::cpt_k_2</definition>
+        <argsstring></argsstring>
+        <name>cpt_k_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="43" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab6dc7408137f76fee6a2f263811c1654" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::lo_estimation_cf_impl::sign_cpt_k_1</definition>
+        <argsstring></argsstring>
+        <name>sign_cpt_k_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="44" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a39b3d2f0a2d053f2495b193cf72d1731" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::lo_estimation_cf_impl::sign_cpt_k_2</definition>
+        <argsstring></argsstring>
+        <name>sign_cpt_k_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="45" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a0d2e4a4cb9f4dd3ee47445e0cec4540a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::lo_estimation_cf_impl::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="46" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a503255d365b18751b1ede82705599e4b" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::lo_estimation_cf_impl::tx_header[192]</definition>
+        <argsstring>[192]</argsstring>
+        <name>tx_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="48" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a7fa8a4a23bbfcd4a3fabf86574a748d9" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::lo_estimation_cf_impl::rx_packet[1408]</definition>
+        <argsstring>[1408]</argsstring>
+        <name>rx_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="49" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af4eea88072a5eb7784c5f154c0671fbc" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::start_time_recording_packet</definition>
+        <argsstring></argsstring>
+        <name>start_time_recording_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="50" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afae0dc77093b28a47f9233e7d85be113" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::lo_estimation_cf_impl::pilotSignal_1</definition>
+        <argsstring></argsstring>
+        <name>pilotSignal_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="51" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa20d5a1b7f3152411dcb51930efcb3a4" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::lo_estimation_cf_impl::pilotSignal_2</definition>
+        <argsstring></argsstring>
+        <name>pilotSignal_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="52" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a0b8fc7f68d929b44255e16006b129e1a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::data_fft_1[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>data_fft_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="53" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab3e5f9866226b57760e4607796d5fee5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::data_fft_2[1024]</definition>
+        <argsstring>[1024]</argsstring>
+        <name>data_fft_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="54" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afc20ab2ee6fc0e18494d34192c7a30f0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::eff_Ts</definition>
+        <argsstring></argsstring>
+        <name>eff_Ts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="55" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6d8c484668f0b114fde0f5022259205" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::data_abs_1[512]</definition>
+        <argsstring>[512]</argsstring>
+        <name>data_abs_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="56" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa293927f0371786887bc610eb49d30f5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::data_abs_2[512]</definition>
+        <argsstring>[512]</argsstring>
+        <name>data_abs_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="57" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a13ca7756e49b191e20fdca06fe2c5f63" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::pilotSpectrum_1[512]</definition>
+        <argsstring>[512]</argsstring>
+        <name>pilotSpectrum_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="58" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa83f4e1692a06d0b3f873246a456cd4e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::pilotSpectrum_2[512]</definition>
+        <argsstring>[512]</argsstring>
+        <name>pilotSpectrum_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="59" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a238886b01f6acae59547475eb54d8221" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::max_val_1</definition>
+        <argsstring></argsstring>
+        <name>max_val_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="60" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af2b87f39c849b2b7f6870690ffe9add7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::max_val_2</definition>
+        <argsstring></argsstring>
+        <name>max_val_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="61" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab86bcbff2fb501e4d55d51420b8b96e6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::max_val</definition>
+        <argsstring></argsstring>
+        <name>max_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="62" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a8b073d66b0c2892f131106096627d643" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::max_ind_1</definition>
+        <argsstring></argsstring>
+        <name>max_ind_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="63" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a39bfd2ee47fd09d16fd9001d5d7c6f98" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::max_ind_2</definition>
+        <argsstring></argsstring>
+        <name>max_ind_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="64" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1abe152aa3b2b26cbe87352cc8af0af8df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::max_ind</definition>
+        <argsstring></argsstring>
+        <name>max_ind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="65" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a24e5a586a0f5ba437674ab5475eb4ff9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::max_ind_final</definition>
+        <argsstring></argsstring>
+        <name>max_ind_final</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="66" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a232c771efa61d37638452799fc7e0224" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::Y_before</definition>
+        <argsstring></argsstring>
+        <name>Y_before</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="67" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a5ea88eb92dd284f9686608637496f229" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::Y_after</definition>
+        <argsstring></argsstring>
+        <name>Y_after</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="68" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac9e5ee0f6513b00e1a881f104e63bff6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::IPlus</definition>
+        <argsstring></argsstring>
+        <name>IPlus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="69" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a667884b096d31981c11e35a0f4b08fa5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::freq_estimate_double_lo</definition>
+        <argsstring></argsstring>
+        <name>freq_estimate_double_lo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="70" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afd77e6f7819ec0ff7e0cc3159df7c38f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::lo_estimation_cf_impl::freq_estimate</definition>
+        <argsstring></argsstring>
+        <name>freq_estimate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="71" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af0a9a4487d6428243b2bc534346e6697" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::lo_estimation_cf_impl::corr_output[1408]</definition>
+        <argsstring>[1408]</argsstring>
+        <name>corr_output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="72" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa9bbf5a7fa1c5377c16ef67b86a483fe" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::phase_coeff</definition>
+        <argsstring></argsstring>
+        <name>phase_coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="73" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a9f817a5701184529e46972bc1d0d2e3d" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::lo_estimation_cf_impl::corr_output_max</definition>
+        <argsstring></argsstring>
+        <name>corr_output_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="74" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a2d86b064d3279475d3c8c6bf8f3ef4f9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::index_max</definition>
+        <argsstring></argsstring>
+        <name>index_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="75" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a6938eeee5522167d0c6d32883fc9a73b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::lo_estimation_cf_impl::phase_estimate</definition>
+        <argsstring></argsstring>
+        <name>phase_estimate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="76" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae217bc581f3fff9037c59ae7e5ca53f9" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::start_time_packet</definition>
+        <argsstring></argsstring>
+        <name>start_time_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="77" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a18756a2be6492c8b8550d2ea05d2cb38" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::lo_estimation_cf_impl::delay_estimate</definition>
+        <argsstring></argsstring>
+        <name>delay_estimate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="78" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a312b9631248773d0471d612153b119dc" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::last_start_time_packet</definition>
+        <argsstring></argsstring>
+        <name>last_start_time_packet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="79" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a740da0aa3713e7292c7bf1a87a5a6351" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::fracs_pkt</definition>
+        <argsstring></argsstring>
+        <name>fracs_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="80" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aed791c5f3071dc183a70735fd7ab3b78" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::fracs</definition>
+        <argsstring></argsstring>
+        <name>fracs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="81" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae2ed52d899edf8dfd957d8d39af7df30" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::pps_fracs</definition>
+        <argsstring></argsstring>
+        <name>pps_fracs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="82" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1affb3181594b676e38437e4fdb492071b" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::secs_pkt</definition>
+        <argsstring></argsstring>
+        <name>secs_pkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="83" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1adc417be5dcc6bb69736ff9c3bc613f50" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::secs</definition>
+        <argsstring></argsstring>
+        <name>secs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="84" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a74092c8869c1ed9f77025f470a84073e" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::pps_secs</definition>
+        <argsstring></argsstring>
+        <name>pps_secs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="85" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1acd15e2a6afa5f858a156cb1e90ea863c" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::offs</definition>
+        <argsstring></argsstring>
+        <name>offs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="86" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a28042ac6e3d711c81ae30a539dc74a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::lo_estimation_cf_impl::lo_estimation_cf_impl</definition>
+        <argsstring>(double sample_rate, double treshold, int nbr_samples_packet, int N, int K)</argsstring>
+        <name>lo_estimation_cf_impl</name>
+        <param>
+          <type>double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>treshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbr_samples_packet</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>K</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a1970ba89dd3953f95641fe736dcd2aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::lo_estimation_cf_impl::~lo_estimation_cf_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~lo_estimation_cf_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af618151fae96653b51122f1bfaf024e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::EnergyBeamforming::lo_estimation_cf_impl::get_pps_secs</definition>
+        <argsstring>() const </argsstring>
+        <name>get_pps_secs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="93" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a301519440b94a0f78d143dcb689dffe0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::lo_estimation_cf_impl::get_pps_fracs</definition>
+        <argsstring>() const </argsstring>
+        <name>get_pps_fracs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="94" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="94" bodyend="94"/>
+        <references refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6fadc5226a0bfa792628a8d3b95293f">forecast</references>
+        <references refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae7dcb49a8d3321618db99913ffb51a7a">general_work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6fadc5226a0bfa792628a8d3b95293f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::EnergyBeamforming::lo_estimation_cf_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="97" column="1"/>
+        <referencedby refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a301519440b94a0f78d143dcb689dffe0" compoundref="lo__estimation__cf__impl_8h" startline="94" endline="94">get_pps_fracs</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae7dcb49a8d3321618db99913ffb51a7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::lo_estimation_cf_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="99" column="1"/>
+        <referencedby refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a301519440b94a0f78d143dcb689dffe0" compoundref="lo__estimation__cf__impl_8h" startline="94" endline="94">get_pps_fracs</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="121">
+        <label>gr::EnergyBeamforming::lo_estimation_cf_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>gr::EnergyBeamforming::lo_estimation_cf</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>gr::EnergyBeamforming::lo_estimation_cf_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>gr::EnergyBeamforming::lo_estimation_cf</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="126">
+        <label>block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" line="31" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/lo_estimation_cf_impl.h" bodystart="30" bodyend="103"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af0a9a4487d6428243b2bc534346e6697" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>corr_output</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a9f817a5701184529e46972bc1d0d2e3d" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>corr_output_max</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a1461310156a5eb0e70018df9c86ed78c" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>cpt_k_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae0068bc47fad1c3c8b6b99175494061e" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>cpt_k_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae0dd8e2a0e509ac6fe8fe119a103e750" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>cpt_samples</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a250a71f544221be6720b216c20337b91" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>cpt_samples_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac0908d1ddab44abc2b24f6b40c0b7652" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>d_K</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a35a499212af23b644aee6056d133c018" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>d_N</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa8b459f7f68a03fd14c42da755c7037b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>d_nbr_samples_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aee79bf99696608ba026e7db9e66eb9bf" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>d_sample_rate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a8269c30faaaddb4710146831a866fa11" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>d_treshold</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6d8c484668f0b114fde0f5022259205" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>data_abs_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa293927f0371786887bc610eb49d30f5" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>data_abs_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a0b8fc7f68d929b44255e16006b129e1a" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>data_fft_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab3e5f9866226b57760e4607796d5fee5" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>data_fft_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a18756a2be6492c8b8550d2ea05d2cb38" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>delay_estimate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afc20ab2ee6fc0e18494d34192c7a30f0" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>eff_Ts</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac6fadc5226a0bfa792628a8d3b95293f" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aed791c5f3071dc183a70735fd7ab3b78" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>fracs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a740da0aa3713e7292c7bf1a87a5a6351" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>fracs_pkt</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afd77e6f7819ec0ff7e0cc3159df7c38f" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>freq_estimate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a667884b096d31981c11e35a0f4b08fa5" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>freq_estimate_double_lo</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae7dcb49a8d3321618db99913ffb51a7a" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a301519440b94a0f78d143dcb689dffe0" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>get_pps_fracs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af618151fae96653b51122f1bfaf024e5" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>get_pps_secs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a2d86b064d3279475d3c8c6bf8f3ef4f9" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>index_max</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ac9e5ee0f6513b00e1a881f104e63bff6" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>IPlus</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a312b9631248773d0471d612153b119dc" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>last_start_time_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a28042ac6e3d711c81ae30a539dc74a79" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>lo_estimation_cf_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf_1ad18e3b0147d1f6ad9143c1d2fdeef560" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1abe152aa3b2b26cbe87352cc8af0af8df" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_ind</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a8b073d66b0c2892f131106096627d643" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_ind_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a39bfd2ee47fd09d16fd9001d5d7c6f98" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_ind_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a24e5a586a0f5ba437674ab5475eb4ff9" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_ind_final</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab86bcbff2fb501e4d55d51420b8b96e6" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_val</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a238886b01f6acae59547475eb54d8221" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_val_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af2b87f39c849b2b7f6870690ffe9add7" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>max_val_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1acd15e2a6afa5f858a156cb1e90ea863c" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>offs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa9bbf5a7fa1c5377c16ef67b86a483fe" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>phase_coeff</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a6938eeee5522167d0c6d32883fc9a73b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>phase_estimate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a0d2e4a4cb9f4dd3ee47445e0cec4540a" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pi</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1afae0dc77093b28a47f9233e7d85be113" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pilotSignal_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa20d5a1b7f3152411dcb51930efcb3a4" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pilotSignal_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a13ca7756e49b191e20fdca06fe2c5f63" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pilotSpectrum_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1aa83f4e1692a06d0b3f873246a456cd4e" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pilotSpectrum_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae2ed52d899edf8dfd957d8d39af7df30" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pps_fracs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a74092c8869c1ed9f77025f470a84073e" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>pps_secs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a7fa8a4a23bbfcd4a3fabf86574a748d9" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>rx_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1adc417be5dcc6bb69736ff9c3bc613f50" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>secs</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1affb3181594b676e38437e4fdb492071b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>secs_pkt</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ab6dc7408137f76fee6a2f263811c1654" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>sign_cpt_k_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a39b3d2f0a2d053f2495b193cf72d1731" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>sign_cpt_k_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf_1a4f8c39e5e60df0e101e74a5b5ff3f998" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1ae217bc581f3fff9037c59ae7e5ca53f9" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>start_time_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1af4eea88072a5eb7784c5f154c0671fbc" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>start_time_recording_packet</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a4bf6a247323831d4f6864d3e822d1a37" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>Ts</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a503255d365b18751b1ede82705599e4b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>tx_header</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a5ea88eb92dd284f9686608637496f229" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>Y_after</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a232c771efa61d37638452799fc7e0224" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>Y_before</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf__impl_1a1970ba89dd3953f95641fe736dcd2aac" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::lo_estimation_cf_impl</scope><name>~lo_estimation_cf_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

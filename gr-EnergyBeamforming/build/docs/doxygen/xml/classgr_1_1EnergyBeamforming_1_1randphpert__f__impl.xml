@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::randphpert_f_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1randphpert__f" prot="public" virt="non-virtual">gr::EnergyBeamforming::randphpert_f</basecompoundref>
+    <includes refid="randphpert__f__impl_8h" local="no">randphpert_f_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ae7393fccf10f857100ac6c714c3c6d9b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::d_rand_pert_size</definition>
+        <argsstring></argsstring>
+        <name>d_rand_pert_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="35" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1aa5733311a01aad09aeb6126e141a544a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::randphpert_f_impl::d_bf_flag</definition>
+        <argsstring></argsstring>
+        <name>d_bf_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="36" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac931e11f2b536e1146bf4ce61f39f23c" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::randphpert_f_impl::d_complex_gain</definition>
+        <argsstring></argsstring>
+        <name>d_complex_gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="38" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a72b3c86e0ba8c64695893efea5501b77" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::randphpert_f_impl::last_in_i</definition>
+        <argsstring></argsstring>
+        <name>last_in_i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="39" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1aefbce985e9d979f35d4ce5b118b21f78" prot="private" static="no" mutable="no">
+        <type>random</type>
+        <definition>random gr::EnergyBeamforming::randphpert_f_impl::seed</definition>
+        <argsstring></argsstring>
+        <name>seed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="40" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ad73ac6cac3590e0fbafded116db9466b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::randp</definition>
+        <argsstring></argsstring>
+        <name>randp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="41" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af5ce838e3afac850288792d83532ffe0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::rand_pert_size_rad</definition>
+        <argsstring></argsstring>
+        <name>rand_pert_size_rad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="42" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af8e60d002ddd2b37570c07c1a1b56ece" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::cum_ang</definition>
+        <argsstring></argsstring>
+        <name>cum_ang</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="43" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1adf0f1d9e239eca903c2980592910a2bc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::i_out</definition>
+        <argsstring></argsstring>
+        <name>i_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="44" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1afc578fb18239da233ff9a8d85f33b2de" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::q_out</definition>
+        <argsstring></argsstring>
+        <name>q_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="45" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a4034dc6aeae1a18301b124fd67fd694b" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::EnergyBeamforming::randphpert_f_impl::etojphi</definition>
+        <argsstring></argsstring>
+        <name>etojphi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="46" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a9f8968260b837e14109278a5819364de" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::randphpert_f_impl::rand_pert_from_prev_iter</definition>
+        <argsstring></argsstring>
+        <name>rand_pert_from_prev_iter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="47" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a680e041bde3b10a3e824b07181caf083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::randphpert_f_impl::randphpert_f_impl</definition>
+        <argsstring>(double rand_pert_size, int bf_flag)</argsstring>
+        <name>randphpert_f_impl</name>
+        <param>
+          <type>double</type>
+          <declname>rand_pert_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bf_flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a8a213b7c4fd995bc7beaf8e636c9d997" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::randphpert_f_impl::~randphpert_f_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~randphpert_f_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af75f5e5ad60b298c4c592e68f1a17c9a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::randphpert_f_impl::bf_flag</definition>
+        <argsstring>() const </argsstring>
+        <name>bf_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="55" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="55" bodyend="55"/>
+        <references refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1abf2c637b341d9549065b073a009f5e29">set_bf_flag</references>
+        <references refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac6a4147fcec752e8c2ffca469be1d15f">work</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1abf2c637b341d9549065b073a009f5e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::EnergyBeamforming::randphpert_f_impl::set_bf_flag</definition>
+        <argsstring>(int bf_flag)</argsstring>
+        <name>set_bf_flag</name>
+        <param>
+          <type>int</type>
+          <declname>bf_flag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="58" column="1"/>
+        <referencedby refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af75f5e5ad60b298c4c592e68f1a17c9a" compoundref="randphpert__f__impl_8h" startline="55" endline="55">bf_flag</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac6a4147fcec752e8c2ffca469be1d15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::randphpert_f_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="62" column="1"/>
+        <referencedby refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af75f5e5ad60b298c4c592e68f1a17c9a" compoundref="randphpert__f__impl_8h" startline="55" endline="55">bf_flag</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="187">
+        <label>gr::EnergyBeamforming::randphpert_f_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>gr::EnergyBeamforming::randphpert_f</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1randphpert__f"/>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="190">
+        <label>gr::EnergyBeamforming::randphpert_f_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>gr::EnergyBeamforming::randphpert_f</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1randphpert__f"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="192">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" line="33" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/randphpert_f_impl.h" bodystart="32" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af75f5e5ad60b298c4c592e68f1a17c9a" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>bf_flag</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af8e60d002ddd2b37570c07c1a1b56ece" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>cum_ang</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1aa5733311a01aad09aeb6126e141a544a" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>d_bf_flag</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac931e11f2b536e1146bf4ce61f39f23c" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>d_complex_gain</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ae7393fccf10f857100ac6c714c3c6d9b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>d_rand_pert_size</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a4034dc6aeae1a18301b124fd67fd694b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>etojphi</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1adf0f1d9e239eca903c2980592910a2bc" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>i_out</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a72b3c86e0ba8c64695893efea5501b77" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>last_in_i</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f_1a99663b9bb2035118ef41ef74fd6f6d3b" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1afc578fb18239da233ff9a8d85f33b2de" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>q_out</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a9f8968260b837e14109278a5819364de" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>rand_pert_from_prev_iter</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1af5ce838e3afac850288792d83532ffe0" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>rand_pert_size_rad</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ad73ac6cac3590e0fbafded116db9466b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>randp</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a680e041bde3b10a3e824b07181caf083" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>randphpert_f_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1aefbce985e9d979f35d4ce5b118b21f78" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>seed</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1abf2c637b341d9549065b073a009f5e29" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>set_bf_flag</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f_1a7611e0360bc7fd12e74428e7988c13c1" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1ac6a4147fcec752e8c2ffca469be1d15f" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f__impl_1a8a213b7c4fd995bc7beaf8e636c9d997" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::randphpert_f_impl</scope><name>~randphpert_f_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

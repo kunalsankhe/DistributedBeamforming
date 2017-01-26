@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1tx__packet__source" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::tx_packet_source</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="tx__packet__source_8h" local="no">tx_packet_source.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a110c3b8658c2c8356cb015fd02ff2b7c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" kindref="compound">tx_packet_source</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;tx_packet_source&gt; gr::EnergyBeamforming::tx_packet_source::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/tx_packet_source.h" line="39" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/tx_packet_source.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a831eb277d7815d61cf0ce3b2be10f263" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a110c3b8658c2c8356cb015fd02ff2b7c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::EnergyBeamforming::tx_packet_source::make</definition>
+        <argsstring>(double sample_rate, double time_delay, int nbr_samples_packet, float f_in, float f_out)</argsstring>
+        <name>make</name>
+        <param>
+          <type>double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time_delay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbr_samples_packet</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_in</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>f_out</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" kindref="compound">EnergyBeamforming::tx_packet_source</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" kindref="compound">EnergyBeamforming::tx_packet_source</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a831eb277d7815d61cf0ce3b2be10f263" kindref="member">EnergyBeamforming::tx_packet_source::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/tx_packet_source.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="44">
+        <label>gr::EnergyBeamforming::tx_packet_source</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>gr::EnergyBeamforming::tx_packet_source</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/tx_packet_source.h" line="37" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/tx_packet_source.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a831eb277d7815d61cf0ce3b2be10f263" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::tx_packet_source</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a110c3b8658c2c8356cb015fd02ff2b7c" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::tx_packet_source</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

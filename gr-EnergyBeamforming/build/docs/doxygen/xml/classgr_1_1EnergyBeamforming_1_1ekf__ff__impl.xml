@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::EnergyBeamforming::ekf_ff_impl</compoundname>
+    <basecompoundref refid="classgr_1_1EnergyBeamforming_1_1ekf__ff" prot="public" virt="non-virtual">gr::EnergyBeamforming::ekf_ff</basecompoundref>
+    <includes refid="ekf__ff__impl_8h" local="no">ekf_ff_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a5e98c84e43c221c6488488d78459b127" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::ekf_ff_impl::d_sample_rate</definition>
+        <argsstring></argsstring>
+        <name>d_sample_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="37" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a112b978462f10e846e31c92251417e90" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::EnergyBeamforming::ekf_ff_impl::d_elts_Q</definition>
+        <argsstring></argsstring>
+        <name>d_elts_Q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="38" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a47f988d9f57b46f64df6e6daec1e0967" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::EnergyBeamforming::ekf_ff_impl::d_elts_R</definition>
+        <argsstring></argsstring>
+        <name>d_elts_R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="39" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ade83ddae2665d71893723ccbd7dddbf0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::ekf_ff_impl::d_Tm</definition>
+        <argsstring></argsstring>
+        <name>d_Tm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="40" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abb73c79f36168a0046fd6131102ed1f3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::EnergyBeamforming::ekf_ff_impl::d_initial_freq</definition>
+        <argsstring></argsstring>
+        <name>d_initial_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="41" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a0d723ebfa91fa1c6cca098e2c2ce5f3b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::ekf_ff_impl::cpt_samples</definition>
+        <argsstring></argsstring>
+        <name>cpt_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="43" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7d117c023450f1a661eb199f9d3680c1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::ekf_ff_impl::freq_estimate</definition>
+        <argsstring></argsstring>
+        <name>freq_estimate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="44" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a97e8658739dbcd415599fd11e11c8b98" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::ekf_ff_impl::cos_phi_estimate</definition>
+        <argsstring></argsstring>
+        <name>cos_phi_estimate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="45" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a488e78335f4da786c14c093ad8ac9c36" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::ekf_ff_impl::sin_phi_estimate</definition>
+        <argsstring></argsstring>
+        <name>sin_phi_estimate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="46" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ab2d50e3b60f06460737231eb5a713012" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::EnergyBeamforming::ekf_ff_impl::pi</definition>
+        <argsstring></argsstring>
+        <name>pi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="47" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abc9aa20685d6b30dfa5199cb7c9e4e7b" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="49" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a927b03b738d971b6afa66cb47c2e4822" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::y_tilde_k</definition>
+        <argsstring></argsstring>
+        <name>y_tilde_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="50" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a922d32e8f42cce91c7e54c0de3d98b36" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::h_x_hat_k_km1</definition>
+        <argsstring></argsstring>
+        <name>h_x_hat_k_km1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="51" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7a322c9eca8c08e931596dd04c63ffea" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::x_hat_k_km1</definition>
+        <argsstring></argsstring>
+        <name>x_hat_k_km1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="52" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2abe993ba913c5d86ce5b993659f528a" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::H_k</definition>
+        <argsstring></argsstring>
+        <name>H_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="53" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a6838c6bd037eb0f6f8a11a53db0959f6" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::P_k_km1</definition>
+        <argsstring></argsstring>
+        <name>P_k_km1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="54" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1aa4e6401d6d239eab5784fce2134369bc" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::R</definition>
+        <argsstring></argsstring>
+        <name>R</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="55" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad7b42da024f89ee336870f70fbe1c4af" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_1</definition>
+        <argsstring></argsstring>
+        <name>temp_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="56" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2b23c8095666aa40160a211a86d1f910" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_2</definition>
+        <argsstring></argsstring>
+        <name>temp_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="57" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a3fb3a70ae7446656ad6558f833276754" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::S_k</definition>
+        <argsstring></argsstring>
+        <name>S_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="58" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1acf2d65ba7a51c6530fee32b21207b5a8" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_3</definition>
+        <argsstring></argsstring>
+        <name>temp_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="59" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a215684c5e145633e1878e7c50dd54842" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::inv_S_k</definition>
+        <argsstring></argsstring>
+        <name>inv_S_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="60" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a316b2b6e0ca0c4a168b3078d08608354" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::K_k</definition>
+        <argsstring></argsstring>
+        <name>K_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="61" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a74dfb008b862eb05dec6c0224073a79f" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_4</definition>
+        <argsstring></argsstring>
+        <name>temp_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="62" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7f043f59c7f7d85e7823d6c53104ab76" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::x_hat_k_k</definition>
+        <argsstring></argsstring>
+        <name>x_hat_k_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="63" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a413538d38667923827d218041c198192" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::I_2</definition>
+        <argsstring></argsstring>
+        <name>I_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="64" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1cfc90e2c1485ef4568d26f98baa8355" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_5</definition>
+        <argsstring></argsstring>
+        <name>temp_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="65" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abbbb42ebf1232503d4a0681630b09537" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_6</definition>
+        <argsstring></argsstring>
+        <name>temp_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="66" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a520ce0e682351fff6ebfab6bc8184fa6" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::P_k_k</definition>
+        <argsstring></argsstring>
+        <name>P_k_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="67" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1bf6db237de5f13080477550317c4154" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::F</definition>
+        <argsstring></argsstring>
+        <name>F</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="68" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a07bdedb90ea645a4dcb90a119bb4b708" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_7</definition>
+        <argsstring></argsstring>
+        <name>temp_7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="69" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad501c4a7dcf44d08a8560532920f5cbf" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::temp_8</definition>
+        <argsstring></argsstring>
+        <name>temp_8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="70" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a49484cc3b2209d8e498976770e957907" prot="private" static="no" mutable="no">
+        <type>gsl_matrix *</type>
+        <definition>gsl_matrix* gr::EnergyBeamforming::ekf_ff_impl::Q</definition>
+        <argsstring></argsstring>
+        <name>Q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="71" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1aeb463e518bf44a7aea894814ba661de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::ekf_ff_impl::ekf_ff_impl</definition>
+        <argsstring>(double sample_rate, double Tm, double initial_freq, const std::vector&lt; double &gt; &amp;elts_Q, const std::vector&lt; double &gt; &amp;elts_R)</argsstring>
+        <name>ekf_ff_impl</name>
+        <param>
+          <type>double</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>Tm</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>initial_freq</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>elts_Q</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>elts_R</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2873965331dc5a4134da17c27e9bc020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::EnergyBeamforming::ekf_ff_impl::~ekf_ff_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ekf_ff_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad79bbb6fb6d5367fda4f35b7d37848ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::EnergyBeamforming::ekf_ff_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1d2dc85510f099b592d2257cbf571404" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::EnergyBeamforming::ekf_ff_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="111">
+        <label>gr::EnergyBeamforming::ekf_ff</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1ekf__ff"/>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>block</label>
+      </node>
+      <node id="110">
+        <label>gr::EnergyBeamforming::ekf_ff_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="114">
+        <label>gr::EnergyBeamforming::ekf_ff</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1ekf__ff"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="115">
+        <label>block</label>
+      </node>
+      <node id="113">
+        <label>gr::EnergyBeamforming::ekf_ff_impl</label>
+        <link refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl"/>
+        <childnode refid="114" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" line="35" column="1" bodyfile="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/lib/ekf_ff_impl.h" bodystart="34" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a97e8658739dbcd415599fd11e11c8b98" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>cos_phi_estimate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a0d723ebfa91fa1c6cca098e2c2ce5f3b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>cpt_samples</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a112b978462f10e846e31c92251417e90" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>d_elts_Q</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a47f988d9f57b46f64df6e6daec1e0967" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>d_elts_R</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abb73c79f36168a0046fd6131102ed1f3" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>d_initial_freq</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a5e98c84e43c221c6488488d78459b127" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>d_sample_rate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ade83ddae2665d71893723ccbd7dddbf0" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>d_Tm</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1aeb463e518bf44a7aea894814ba661de0" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>ekf_ff_impl</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1bf6db237de5f13080477550317c4154" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>F</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad79bbb6fb6d5367fda4f35b7d37848ab" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7d117c023450f1a661eb199f9d3680c1" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>freq_estimate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1d2dc85510f099b592d2257cbf571404" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2abe993ba913c5d86ce5b993659f528a" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>H_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a922d32e8f42cce91c7e54c0de3d98b36" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>h_x_hat_k_km1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a413538d38667923827d218041c198192" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>I_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a215684c5e145633e1878e7c50dd54842" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>inv_S_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a316b2b6e0ca0c4a168b3078d08608354" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>K_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff_1a7b550d598cac15cb1280d86aa7e2af7b" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a520ce0e682351fff6ebfab6bc8184fa6" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>P_k_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a6838c6bd037eb0f6f8a11a53db0959f6" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>P_k_km1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ab2d50e3b60f06460737231eb5a713012" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>pi</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a49484cc3b2209d8e498976770e957907" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>Q</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1aa4e6401d6d239eab5784fce2134369bc" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>R</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a3fb3a70ae7446656ad6558f833276754" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>S_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a488e78335f4da786c14c093ad8ac9c36" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>sin_phi_estimate</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff_1a13459a05dbb9db44412d4d5b135ea143" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad7b42da024f89ee336870f70fbe1c4af" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2b23c8095666aa40160a211a86d1f910" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_2</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1acf2d65ba7a51c6530fee32b21207b5a8" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_3</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a74dfb008b862eb05dec6c0224073a79f" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_4</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a1cfc90e2c1485ef4568d26f98baa8355" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_5</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abbbb42ebf1232503d4a0681630b09537" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_6</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a07bdedb90ea645a4dcb90a119bb4b708" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_7</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1ad501c4a7dcf44d08a8560532920f5cbf" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>temp_8</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7f043f59c7f7d85e7823d6c53104ab76" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>x_hat_k_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a7a322c9eca8c08e931596dd04c63ffea" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>x_hat_k_km1</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1abc9aa20685d6b30dfa5199cb7c9e4e7b" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>y</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a927b03b738d971b6afa66cb47c2e4822" prot="private" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>y_tilde_k</name></member>
+      <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff__impl_1a2873965331dc5a4134da17c27e9bc020" prot="public" virt="non-virtual"><scope>gr::EnergyBeamforming::ekf_ff_impl</scope><name>~ekf_ff_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

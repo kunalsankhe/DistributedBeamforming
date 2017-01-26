@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc" kind="class"><name>gr::EnergyBeamforming::bfweight2_cc</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc_1a820106bb8cfe9c53e1017b74b2af3e91" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight2__cc_1a7a7b59aae00e858dd3110540f1e29a94" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc" kind="class"><name>gr::EnergyBeamforming::bfweight_cc</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc_1a07530967418c486cede8f65764c81fc2" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc_1a3b4dc4dc4350c40c15b3f24fc73d7d15" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1bfweight__cc_1ad20fb62754e81ba43933ad70f98a5a31" kind="function"><name>set_bf_weight</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc" kind="class"><name>gr::EnergyBeamforming::correct_gmsk_cc</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc_1aab8124127eae02be26c6702baaecfb16" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1correct__gmsk__cc_1ac505b5d07e3bbfb925f21ed003593767" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1ekf__ff" kind="class"><name>gr::EnergyBeamforming::ekf_ff</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff_1a13459a05dbb9db44412d4d5b135ea143" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1ekf__ff_1a7b550d598cac15cb1280d86aa7e2af7b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf" kind="class"><name>gr::EnergyBeamforming::lo_estimation_cf</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf_1a4f8c39e5e60df0e101e74a5b5ff3f998" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1lo__estimation__cf_1ad18e3b0147d1f6ad9143c1d2fdeef560" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi" kind="class"><name>gr::EnergyBeamforming::multi_slicer_fi</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi_1a1aec7fc6c4f4917c9ed66a37f53a4c7f" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1multi__slicer__fi_1a7ab896a1abb4d08d04f34e6166d1eef4" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf" kind="class"><name>gr::EnergyBeamforming::one_bit_feedb2_cf</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf_1a5638e1f4f64bf8540ff4ccf978f45863" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf_1aa084fe0c091cb31e776ccdcdf0eabaf2" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f" kind="class"><name>gr::EnergyBeamforming::randphpert2_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1a4f074b6df8a199d6254b15a66125b629" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1a0639468f4783867f555d9b06438baf16" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1a6b5fcb5016db3ce5b8c997066b4527f8" kind="function"><name>poll_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert2__f_1afa7dac64a1fcb889de8d1236d7ecfa4e" kind="function"><name>bf_flag</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f" kind="class"><name>gr::EnergyBeamforming::randphpert3_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f_1aa5d3e55a860ca2b6fe11d36044b3dc7a" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert3__f_1a6d4bee27fcaba536a1fc875652edd97c" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f" kind="class"><name>gr::EnergyBeamforming::randphpert4_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a9312e5aa53c5c728750998ac8f7361a8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a34c56960cec00ce6cb8104a24d937d9d" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a4e378da98b530c4b8fcdd2ff77db8bd2" kind="function"><name>poll_complex_gain</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f_1a2ffa0662331bba504090b8414cc705b1" kind="function"><name>bf_flag</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1randphpert__f" kind="class"><name>gr::EnergyBeamforming::randphpert_f</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f_1a7611e0360bc7fd12e74428e7988c13c1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1randphpert__f_1a99663b9bb2035118ef41ef74fd6f6d3b" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" kind="class"><name>gr::EnergyBeamforming::tx_packet_source</name>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a110c3b8658c2c8356cb015fd02ff2b7c" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source_1a831eb277d7815d61cf0ce3b2be10f263" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1EnergyBeamforming" kind="namespace"><name>gr::EnergyBeamforming</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a74494222cae9e366466eadc7e84bb0c3" kind="define"><name>ENERGYBEAMFORMING_API</name></member>
+  </compound>
+  <compound refid="bfweight2__cc_8h" kind="file"><name>bfweight2_cc.h</name>
+  </compound>
+  <compound refid="bfweight__cc_8h" kind="file"><name>bfweight_cc.h</name>
+  </compound>
+  <compound refid="correct__gmsk__cc_8h" kind="file"><name>correct_gmsk_cc.h</name>
+  </compound>
+  <compound refid="ekf__ff_8h" kind="file"><name>ekf_ff.h</name>
+  </compound>
+  <compound refid="lo__estimation__cf_8h" kind="file"><name>lo_estimation_cf.h</name>
+  </compound>
+  <compound refid="multi__slicer__fi_8h" kind="file"><name>multi_slicer_fi.h</name>
+  </compound>
+  <compound refid="one__bit__feedb2__cf_8h" kind="file"><name>one_bit_feedb2_cf.h</name>
+  </compound>
+  <compound refid="randphpert2__f_8h" kind="file"><name>randphpert2_f.h</name>
+  </compound>
+  <compound refid="randphpert3__f_8h" kind="file"><name>randphpert3_f.h</name>
+  </compound>
+  <compound refid="randphpert4__f_8h" kind="file"><name>randphpert4_f.h</name>
+  </compound>
+  <compound refid="randphpert__f_8h" kind="file"><name>randphpert_f.h</name>
+  </compound>
+  <compound refid="tx__packet__source_8h" kind="file"><name>tx_packet_source.h</name>
+  </compound>
+  <compound refid="dir_f82d4e7e48ee8a20cc7e2a346931fe97" kind="dir"><name>/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include</name>
+  </compound>
+</doxygenindex>

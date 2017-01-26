@@ -1,0 +1,27 @@
+<block>
+  <name>Multi Slicer</name>
+  <key>EnergyBeamforming_multi_slicer_fi</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.multi_slicer_fi($upper_th, $lower_th)</make>
+  <param>
+    <name>Upper Threshold</name>
+    <key>upper_th</key>
+    <value>1.0</value>
+    <type>real</type>
+  </param>
+  <param>
+    <name>Lower Threshold</name>
+    <key>lower_th</key>
+    <value>-1.0</value>
+    <type>real</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

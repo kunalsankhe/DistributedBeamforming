@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="one__bit__feedb2__cf_8h" kind="file" language="C++">
+    <compoundname>one_bit_feedb2_cf.h</compoundname>
+    <includes refid="api_8h" local="no">EnergyBeamforming/api.h</includes>
+    <includes local="no">gnuradio/sync_decimator.h</includes>
+    <includedby refid="one__bit__feedb2__cf__impl_8h" local="no">one_bit_feedb2_cf_impl.h</includedby>
+    <incdepgraph>
+      <node id="307">
+        <label>EnergyBeamforming/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="308" relation="include">
+        </childnode>
+      </node>
+      <node id="309">
+        <label>gnuradio/sync_decimator.h</label>
+      </node>
+      <node id="308">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="306">
+        <label>one_bit_feedb2_cf.h</label>
+        <link refid="one_bit_feedb2_cf.h"/>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="309" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="311">
+        <label>one_bit_feedb2_cf_impl.h</label>
+        <link refid="one__bit__feedb2__cf__impl_8h"/>
+      </node>
+      <node id="310">
+        <label>one_bit_feedb2_cf.h</label>
+        <link refid="one_bit_feedb2_cf.h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1one__bit__feedb2__cf" prot="public">gr::EnergyBeamforming::one_bit_feedb2_cf</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1EnergyBeamforming">gr::EnergyBeamforming</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/one_bit_feedb2_cf.h"/>
+  </compounddef>
+</doxygen>

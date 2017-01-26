@@ -1,0 +1,31 @@
+<block>
+  <name>Random Phase Perturbation ModifiedV4</name>
+  <key>EnergyBeamforming_randphpert4_f</key>
+    <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.randphpert4_f($rand_pert_size, $bf_flag)</make>
+   <callback>set_bf_flag($bf_flag)</callback>
+   
+  <param>
+        <name>Perturbation angle (degrees)</name>
+        <key>rand_pert_size</key>
+        <type>real</type>
+  </param>
+
+   <param>
+        <name>Beamforming (On/Off)?</name>
+        <key>bf_flag</key>
+        <type>int</type>
+   </param>
+
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  
+ 
+<doc>
+Documentation to be done...
+</doc>
+
+</block>

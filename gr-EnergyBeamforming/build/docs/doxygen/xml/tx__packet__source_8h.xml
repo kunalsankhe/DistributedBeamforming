@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="tx__packet__source_8h" kind="file" language="C++">
+    <compoundname>tx_packet_source.h</compoundname>
+    <includes refid="api_8h" local="no">EnergyBeamforming/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="tx__packet__source__impl_8h" local="no">tx_packet_source_impl.h</includedby>
+    <incdepgraph>
+      <node id="380">
+        <label>EnergyBeamforming/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="381" relation="include">
+        </childnode>
+      </node>
+      <node id="382">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="381">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="379">
+        <label>tx_packet_source.h</label>
+        <link refid="tx_packet_source.h"/>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="383">
+        <label>tx_packet_source.h</label>
+        <link refid="tx_packet_source.h"/>
+        <childnode refid="384" relation="include">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>tx_packet_source_impl.h</label>
+        <link refid="tx__packet__source__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1tx__packet__source" prot="public">gr::EnergyBeamforming::tx_packet_source</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1EnergyBeamforming">gr::EnergyBeamforming</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/tx_packet_source.h"/>
+  </compounddef>
+</doxygen>

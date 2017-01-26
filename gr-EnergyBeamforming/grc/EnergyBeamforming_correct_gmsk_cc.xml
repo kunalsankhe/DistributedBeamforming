@@ -1,0 +1,35 @@
+<block>
+  <name>Correct GMSK phase</name>
+  <key>EnergyBeamforming_correct_gmsk_cc</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.correct_gmsk_cc($nbr_samples_packet, $sampling_freq)</make>
+  
+  
+  <param>
+	<name>Nbr samples packet</name>
+	<key>nbr_samples_packet</key>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Sampling frequency</name>
+	<key>sampling_freq</key>
+	<type>real</type>
+  </param>
+
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+
+  <doc>
+This block corrects the phase of the GMSK packets so that the absolute phase of each packet is zero. 
+  </doc>
+</block>

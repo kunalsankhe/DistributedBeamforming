@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<block>
+  <name>EKF</name>
+  <key>EnergyBeamforming_ekf_ff</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.ekf_ff($sample_rate, $Tm, $initial_freq, $elts_Q, $elts_R)</make>
+  <param>
+	<name>Sample rate</name>
+	<key>sample_rate</key>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Tm</name>
+	<key>Tm</key>
+	<value>0.050</value>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Initial freq.</name>
+	<key>initial_freq</key>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Elements Q</name>
+	<key>elts_Q</key>
+	<value>0.05, 1, 1, 38</value>
+	<type>real_vector</type>
+  </param>
+
+  <param>
+	<name>Elements R</name>
+	<key>elts_R</key>
+	<value>0.0000000225, 0.0000000225, 100</value>
+	<type>real_vector</type>
+  </param>
+
+  <sink>
+    <name>freq</name>
+    <type>float</type>
+  </sink>
+
+  <sink>
+    <name>phase</name>
+    <type>float</type>
+  </sink>  
+
+  <sink>
+    <name>delay</name>
+    <type>float</type>
+  </sink>
+
+  <sink>
+    <name>secs</name>
+    <type>s64</type>
+  </sink>
+
+  <sink>
+    <name>fracs</name>
+    <type>f64</type>
+  </sink>
+
+  <source>
+    <name>filt phase</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>filt freq</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>secs</name>
+    <type>s64</type>
+  </source>
+
+  <source>
+    <name>fracs</name>
+    <type>f64</type>
+  </source>
+
+  <doc>
+Extended Kalman Filter
+  </doc>
+</block>

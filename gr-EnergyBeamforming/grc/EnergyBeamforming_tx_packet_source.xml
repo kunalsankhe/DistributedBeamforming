@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<block>
+  <name>Tx packet source</name>
+  <key>EnergyBeamforming_tx_packet_source</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.tx_packet_source($sample_rate, $time_delay, $nbr_samples_packet, $f_in, $f_out)</make>
+  
+ <param>
+	<name>Sample rate</name>
+	<key>sample_rate</key>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Time delay</name>
+	<key>time_delay</key>
+	<value>0.040</value>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Nbr samples packet</name>
+	<key>nbr_samples_packet</key>
+	<value>1000</value>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Input freq.</name>
+	<key>f_in</key>
+	<value>964000000</value>
+	<type>real</type>
+  </param>
+
+  <param>
+	<name>Output freq.</name>
+	<key>f_out</key>
+	<value>892000000</value>
+	<type>real</type>
+  </param>
+
+  <sink>
+    <name>phase</name>
+    <type>float</type>
+  </sink>
+
+  <sink>
+    <name>freq</name>
+    <type>float</type>
+  </sink>  
+
+  <sink>
+    <name>secs</name>
+    <type>s64</type>
+  </sink>
+
+  <sink>
+    <name>fracs</name>
+    <type>f64</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+
+
+  <doc>
+This block will send time-synchronized packets on the forward link. It also compensates the transmitted message for the LO clock offset, with the appropriate frequency corrections for the LO clock offset at different frequencies.
+
+Parameters:
+Sample rate: sample rate of the system
+Time delay: delay (in seconds) between the feedback message and the transmitted message
+Nbr samples packet: length (in samples) of the transmitted message
+Input freq.: carrier frequency of the feedback link
+Output freq.: carrier frequency of the forward link
+  </doc>
+</block>

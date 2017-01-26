@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="randphpert4__f_8h" kind="file" language="C++">
+    <compoundname>randphpert4_f.h</compoundname>
+    <includes refid="api_8h" local="no">EnergyBeamforming/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="randphpert4__f__impl_8h" local="no">randphpert4_f_impl.h</includedby>
+    <incdepgraph>
+      <node id="350">
+        <label>EnergyBeamforming/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="351" relation="include">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="351">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="349">
+        <label>randphpert4_f.h</label>
+        <link refid="randphpert4_f.h"/>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="354">
+        <label>randphpert4_f_impl.h</label>
+        <link refid="randphpert4__f__impl_8h"/>
+      </node>
+      <node id="353">
+        <label>randphpert4_f.h</label>
+        <link refid="randphpert4_f.h"/>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1EnergyBeamforming_1_1randphpert4__f" prot="public">gr::EnergyBeamforming::randphpert4_f</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1EnergyBeamforming">gr::EnergyBeamforming</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/genesys/Documents/Monday-Demo/gr-EnergyBeamforming/include/EnergyBeamforming/randphpert4_f.h"/>
+  </compounddef>
+</doxygen>

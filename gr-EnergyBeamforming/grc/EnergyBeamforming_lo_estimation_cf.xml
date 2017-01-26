@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<block>
+  <name>LO Estimation</name>
+  <key>EnergyBeamforming_lo_estimation_cf</key>
+  <category>[EnergyBeamforming]</category>
+  <import>import EnergyBeamforming</import>
+  <make>EnergyBeamforming.lo_estimation_cf($sample_rate, $treshold, $nbr_samples_packet, $N, $K)</make>
+  <param>
+	<name>Sample rate</name>
+	<key>sample_rate</key>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Treshold</name>
+	<key>treshold</key>
+	<value>0.010</value>
+	<type>real</type>  </param>
+
+  <param>
+	<name>Nbr samples packet</name>
+	<key>nbr_samples_packet</key>
+	<value>1200</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Nbr FFT samples</name>
+	<key>N</key>
+	<value>512</value>
+	<type>real</type>
+  </param>
+  <param>
+	<name>Nbr header samples</name>
+	<key>K</key>
+	<value>192</value>
+	<type>real</type>
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>freq</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>phase</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>delay</name>
+    <type>float</type>
+  </source>
+
+  <source>
+    <name>secs</name>
+    <type>s64</type>
+  </source>
+
+  <source>
+    <name>fracs</name>
+    <type>f64</type>
+  </source>
+
+  <doc>
+This block estimates the LO frequency offset, LO phase offset, and time of arrival of a received GMSK packet. 
+
+Parameters:
+Sample rate: sample rate of the received packet
+Treshold: treshold above which a packet is detected
+Nbr samples packet: number of samples in one packet
+Nbr FFT samples: number of samples used for the FFT that is performed during LO frequency  offset estimation. Note that this must be a power of 2, and that the packet should be at least twice as long as this number (default is 512)
+Nbr header samples: Number of samples of the header that are used to perform the LO phase offset estimate (default is 192)
+  </doc>
+</block>
